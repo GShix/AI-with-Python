@@ -1,4 +1,5 @@
 # variable
+import math
 course = "Python Programming"
 
 # function
@@ -41,9 +42,11 @@ course6 = "   Python Programming   "
 print(course6.strip())  # removes whitespace from both sides
 print(course6.lstrip())  # removes whitespace from the left side
 print(course6.rstrip())  # removes whitespace from the right side
+
 # finds the index of the first occurrence of the substring "gram"
 print(course5.find("gram"))
 course6.replace("p", "d")
+
 # checks if the substring "pro" is in course6 and returns True or False
 print("pro" in course6)
 # checks if the substring "swift" is not in course6 and returns True or False
@@ -52,9 +55,9 @@ print("swift" not in course6)
 # Numbers
 x = 10
 y = 3.1
-z = 1+2j # complex number
+z = 1+2j  # complex number
 
-#operations
+# operations
 print(10 + 3)  # addition
 print(10 - 3)  # subtraction
 print(10 * 3)  # multiplication
@@ -66,5 +69,12 @@ print(10 ** 2)  # exponentiation
 print(round(2.5))  # rounds to the nearest integer
 print(abs(-2.5))  # returns the absolute value
 
-import math
 print(math.ceil(3.2))  # rounds up to the nearest integer
+
+#type conversion
+x = 20 # converts to integer
+print(type(x))  # <class 'int'>
+
+a = input("X: ")
+b = int(a) +2
+print(f"a: {a}, b: {b}")
