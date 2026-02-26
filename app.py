@@ -153,6 +153,39 @@ successful = True
 #     print("Attempted 3 times and failed")
 
 # Nested loops
-for x in range(5):
-    for y in range(3):
-        print(f"({x}, {y})")
+# for x in range(5):
+#     for y in range(3):
+#         print(f"({x}, {y})")
+
+# Iterables
+# for x in "Dambar":
+#     print(x)
+
+# iteration in list
+# for x in [1, 2, 3, 4]:
+#     print(x)
+
+# for item in shopping_cart:
+#     print(item)
+
+# while loops
+# number = 100
+# while number > 0:
+#     print(number)
+#     number //= 3
+# command = ""
+# while command != "quit" and command != "QUIT":
+#     command = input(">")
+#     print("ECHO", command)
+# print("Session Ended")
+# while command.lower() != "quit":
+#     command = input(">")
+#     print("ECHO", command)
+# print("Session Ended")
+
+# infinite loop
+# while True:
+#     command = input(">")
+#     if command.lower() == "quit":
+#         break
+#     print("ECHO", command)
