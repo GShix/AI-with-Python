@@ -193,9 +193,25 @@ successful = True
 
 # Exercise
 # Print even numbers from 1 to 10
-count = 0
-for x in range(1, 10):
-    if (x % 2 == 0):
-        print(x)
-        count += 1
-print(f"We have {count} even numbers")
+# count = 0
+# for x in range(1, 10):
+#     if (x % 2 == 0):
+#         print(x)
+#         count += 1
+# print(f"We have {count} even numbers")
+
+
+# custom functions
+# def greet(first_name, last_name):
+#     print(f"Hi {first_name} {last_name}!")
+#     return f"{first_name} is greeting you!"
+
+
+# print(greet("Dambar", "Gharti"))
+
+def increment(number, by=1):  # default parameter
+    return number + by
+
+
+message = increment(2, 4)  # arguments
+print(message)
