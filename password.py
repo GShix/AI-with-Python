@@ -14,17 +14,32 @@
 
 # send otp
 
-OTP = "1234"
-name = ""
-for attempt in range(1, 4):
-    if (attempt == 3):
-        print("One more attempt left")
+# OTP = "1234"
+# name = ""
+# for attempt in range(1, 4):
+#     if (attempt == 3):
+#         print("One more attempt left")
 
-    user_otp = input("Enter the OTP: ")
-    if user_otp != OTP:
-        print("Try again!")
-        continue
-    else:
-        name = input("Enter your name: ")
-        print(f"Welcome {name} ji")
-        break
+#     user_otp = input("Enter the OTP: ")
+#     if user_otp != OTP:
+#         print("Try again!")
+#         continue
+#     else:
+#         name = input("Enter your name: ")
+#         print(f"Welcome {name} ji")
+#         break
+
+name = "Dambar"
+
+
+def my_function():
+    global name
+    name = "Kanxa"
+
+    return name
+
+
+my_function()
+# output = my_function()
+# print(output)
+print(name)
